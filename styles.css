@@ -1,0 +1,99 @@
+
+
+
+body {
+	font-family:'Merriweather', serif;
+	color: #131511;
+	margin: auto;
+	padding: 0px 250px;
+	background-color: black;
+	
+
+}
+
+.main-contain {
+	background-color: #F2F1E8
+
+}
+
+.site-header {
+	line-height: 50px;
+	box-shadow: 0px 0px 5px rgba( 0, 0, 0, 0.3 );
+	background-color: #FFFFFF;
+	position:relative;
+}
+
+.main-navigation {
+	display:flex;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.main-navigation a{
+	display:block;
+	margin:0 20px;
+	font-size: .9em;
+
+}
+
+#logo {
+	padding: 10px;
+	height: 35px;
+	width: 35px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#page-content {
+	padding: 10px;
+}
+
+#page-content h1 {
+	line-height: 75px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 400
+
+}
+
+#page-content h3 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 200;
+	height: 75px;
+	line-height: 50px;
+}
+
+.pictures-1 {
+	
+	height: 200px;
+
+}
+
+.pic-contain {
+	position: relative;
+}
+
+.piclabel {
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	color:white;
+	background-color: gray;
+	padding: 7px;
+}
+
+
+#Endless-Possibilities {
+	
+	width: 300px;
+}
+
+#site-footer {
+
+	color: #131511;
+	background-color: 
+}
+
+
