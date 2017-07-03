@@ -5,14 +5,15 @@ body {
 	font-family:'Merriweather', serif;
 	color: #131511;
 	margin: auto;
-	padding: 0px 250px;
+	padding: 0px 180px;
 	background-color: black;
 	
 
 }
 
 .main-contain {
-	background-color: #F2F1E8
+	background-color: #F2F1E8;
+
 
 }
 
@@ -27,12 +28,14 @@ body {
 	display:flex;
 	justify-content: center;
 	text-transform: uppercase;
+	font-family: #2B2F26;
 }
 
 .main-navigation a{
 	display:block;
 	margin:0 20px;
 	font-size: .9em;
+	color: #968772;
 
 }
 
@@ -45,55 +48,80 @@ body {
 	left:0;
 }
 
-#page-content {
-	padding: 10px;
+.page-content {
+	padding: 20px;
 }
 
-#page-content h1 {
-	line-height: 75px;
+.page-content h1 {
+	line-height: 20px;
 	text-align: center;
 	font-size: 3em;
-	font-weight: 400
+	font-weight: 400;
 
 }
 
-#page-content h3 {
+.page-content h3 {
 	text-align: center;
 	font-size: 2em;
 	font-weight: 200;
-	height: 75px;
-	line-height: 50px;
+	line-height: 25px;
 }
 
-.pictures-1 {
+.picrow1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	
-	height: 200px;
+	
+}
 
+
+.pictures-1 {
+	height: 275px;
+	
+
+}
+
+.pictures-2 {
+	height: 175px;
+	flex-grow: 2;
 }
 
 .pic-contain {
 	position: relative;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
+
 }
 
 .piclabel {
 	position: absolute;
 	bottom: 10px;
 	left: 0px;
-	color:white;
-	background-color: gray;
+	color: #F2F1E8;
+	background-color: rgb(43,47,38);
 	padding: 7px;
 }
 
 
-#Endless-Possibilities {
-	
-	width: 300px;
-}
-
 #site-footer {
-
-	color: #131511;
-	background-color: 
+	color: #F2F1E8;
+	background-color: rgb(43,47,38);
+	height: 80px;
+	line-height: 80px;
+	padding-left: 20px;
 }
+
+
+
+.about-end {
+	
+}
+
+
+
+
+
 
 
