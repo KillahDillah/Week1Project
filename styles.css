@@ -4,7 +4,7 @@
 body {
 	font-family:'Merriweather', serif;
 	color: #131511;
-	margin: 0px 100px;
+	margin: 0px 150px;
 	padding: 0px 115px;
 	background-color: black;
 	
@@ -81,7 +81,7 @@ body {
 }
 
 .picrow1 {
-	width: 113%;
+	width: 111%;
 	padding-left: 30px;
 }
 
@@ -90,8 +90,26 @@ body {
 	height: 275px;
 }
 
+
+
+#textures {
+	width: 165px;
+}
+
 .pictures-2 {
 	height: 175px;
+}
+
+#tea-time {
+	width: 175px;
+}
+
+#jars {
+	width: 175px;
+}
+
+#sippin {
+	width: 168px;
 }
 
 .pic-contain {
@@ -99,7 +117,7 @@ body {
 }
 
 #Wasabi {
-	width: 
+	width: 309px;
 }
 
 #EP {
