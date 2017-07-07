@@ -4,8 +4,8 @@
 body {
 	font-family:'Merriweather', serif;
 	color: #131511;
-	margin: auto;
-	padding: 0px 180px;
+	margin: 0px 100px;
+	padding: 0px 115px;
 	background-color: black;
 	
 
@@ -36,6 +36,7 @@ body {
 	margin:0 20px;
 	font-size: .9em;
 	color: #968772;
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -47,6 +48,18 @@ body {
 	top:0;
 	left:0;
 }
+
+
+#site-footer {
+	color: #F2F1E8;
+	background-color: rgb(43,47,38);
+	height: 80px;
+	line-height: 80px;
+	padding-left: 20px;
+	font-size: .7em;
+}
+
+/*H Home Page*/
 
 .page-content {
 	padding: 20px;
@@ -68,31 +81,29 @@ body {
 }
 
 .picrow1 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	
-	
+	width: 113%;
+	padding-left: 30px;
 }
 
 
 .pictures-1 {
 	height: 275px;
-	
-
 }
 
 .pictures-2 {
 	height: 175px;
-	flex-grow: 2;
 }
 
 .pic-contain {
 	position: relative;
-	flex-wrap: nowrap;
-	justify-content: space-around;
+}
 
+#Wasabi {
+	width: 
+}
 
+#EP {
+	width: 50%;
 }
 
 .piclabel {
@@ -105,21 +116,7 @@ body {
 }
 
 
-#site-footer {
-	color: #F2F1E8;
-	background-color: rgb(43,47,38);
-	height: 80px;
-	line-height: 80px;
-	padding-left: 20px;
-}
-
-
-
-.about-end {
-	
-}
-
-
+/* About Page*/
 
 
 
