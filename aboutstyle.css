@@ -126,15 +126,13 @@ tr:nth-child(even){
 }
 
 
-
-
-#site-footer {
+#footy {
 	color: #F2F1E8;
-	background-color: rgb(43,47,38);
+	background-color: rgb(43,47,38) !important;
 	height: 80px;
 	line-height: 80px;
 	padding-left: 20px;
 	font-size: .7em;
-	margin: 0px -100px;
 }
+
 

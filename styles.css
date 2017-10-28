@@ -50,9 +50,18 @@ body {
 }
 
 
-#site-footer {
+.site-footer {
 	color: #F2F1E8;
 	background-color: rgb(43,47,38);
+	height: 80px;
+	line-height: 80px;
+	padding-left: 20px;
+	font-size: .7em;
+}
+
+#footy {
+	color: #F2F1E8;
+	background-color: rgb(43,47,38) !important;
 	height: 80px;
 	line-height: 80px;
 	padding-left: 20px;
